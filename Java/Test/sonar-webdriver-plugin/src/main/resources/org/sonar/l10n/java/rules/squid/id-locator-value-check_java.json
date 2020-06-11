@@ -1,0 +1,9 @@
+{
+  "title": "Should avoid invalid id locators",
+  "type": "BUG",
+  "status": "ready",
+  "tags": [
+    "webdriver"
+  ],
+  "defaultSeverity": "Critical"
+}

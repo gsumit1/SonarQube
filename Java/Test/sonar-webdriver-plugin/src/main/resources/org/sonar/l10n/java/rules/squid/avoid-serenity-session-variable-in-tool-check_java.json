@@ -1,0 +1,9 @@
+{
+  "title": "Avoid using Serenity Session Variable in the Tools project.",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "tags": [
+    "webdriver"
+  ],
+  "defaultSeverity": "Minor"
+}

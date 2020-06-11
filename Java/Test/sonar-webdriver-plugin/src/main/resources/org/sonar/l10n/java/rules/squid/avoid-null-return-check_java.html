@@ -1,0 +1,15 @@
+<p>Avoid using null return, use return webElementFacade instead</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+  public WebElementFacade getUniqueElementInPage() {
+		return null; // Noncompliant 
+	}
+</pre>
+<h2>Compliant Solution</h2>
+<p></p>
+<pre>
+Implement method use return webElementFacade instead
+public WebElementFacade getUniqueElementInPage() {
+		return btn_name;
+	}
+</pre>

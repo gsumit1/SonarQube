@@ -1,0 +1,16 @@
+<p>Avoid xpath creation for web element instead use @FindBy in page class. For dynamic xpath creation you can use but in page class only</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+ public void dropdown() {
+		getDriver().findElement(By.xpath("//div[1]"); // Noncompliant 
+	}
+
+	public void dropdown1() {
+		getDriver().findElements(By.xpath("//div"); // Noncompliant 
+	}
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+  use @FindBy in page class.
+</pre>
+

@@ -1,0 +1,11 @@
+<p>Avoid using hard coded waitABit, use explicit wait instead</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+  waitABit(1000); // Noncompliant
+</pre>
+<h2>Compliant Solution</h2>
+<p></p>
+<pre>
+  // Implement method using explicit wait, example:
+ 	loginPage.withTimeoutOf(Duration.ofMillis(6000)).waitFor(loginPage.btn_login).click();	
+</pre>

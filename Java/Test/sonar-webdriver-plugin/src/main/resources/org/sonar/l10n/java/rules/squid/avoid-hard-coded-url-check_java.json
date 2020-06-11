@@ -1,0 +1,9 @@
+{
+  "title": "Avoid hard coded URL in code instead read from the data.xml",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "tags": [
+    "webdriver"
+  ],
+  "defaultSeverity": "Critical"
+}

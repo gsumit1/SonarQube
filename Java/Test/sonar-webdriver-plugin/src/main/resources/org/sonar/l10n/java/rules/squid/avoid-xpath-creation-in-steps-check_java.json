@@ -1,0 +1,9 @@
+{
+  "title": "Avoid xpath creation for web element instead use @FindBy in page class. For dynamic xpath creation you can use but in page class only",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "tags": [
+    "webdriver"
+  ],
+  "defaultSeverity": "Minor"
+}

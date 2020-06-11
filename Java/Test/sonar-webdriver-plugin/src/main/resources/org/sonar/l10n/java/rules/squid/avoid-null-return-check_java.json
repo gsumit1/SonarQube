@@ -1,0 +1,9 @@
+{
+  "title": "Avoid using null return, use return webElementFacade instead",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "tags": [
+    "webdriver"
+  ],
+  "defaultSeverity": "Critical"
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Avoid using hard coded waitABit, use explicit wait instead",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "tags": [
+    "webdriver"
+  ],
+  "defaultSeverity": "Critical"
+}

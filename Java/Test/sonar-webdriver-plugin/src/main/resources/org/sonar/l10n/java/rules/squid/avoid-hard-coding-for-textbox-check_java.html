@@ -1,0 +1,17 @@
+<p>Avoid hardcoding in sendkeys, either read data from cucumber or data xml.</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+      public void type() {
+    	searchBox.sendKeys("typeMe"); // Noncompliant 
+    }
+
+    
+    public void type1() {
+    	searchBox.type("typeMe"); // Noncompliant 
+    }
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+  Either pass the data to user code from cucumber or read from data.xml
+</pre>
+

@@ -1,0 +1,9 @@
+{
+  "title": "Avoid hardcoding in sendkeys, either read data from cucumber or data xml.",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "tags": [
+    "webdriver"
+  ],
+  "defaultSeverity": "Critical"
+}

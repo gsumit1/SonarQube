@@ -1,0 +1,10 @@
+<p>Avoid using Serenity Session Variable in the Tools project.</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+	Serenity.setSessionVariable("name").to(page.lbl_order_no.getText().trim()); //Noncompliant
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+  Use Serenity Session Variable in the Test projects only.
+</pre>
+
